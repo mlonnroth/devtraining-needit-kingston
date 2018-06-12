@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_embedded_help_content">
+    <sys_embedded_help_content action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category/>
+        <content><![CDATA[    <h1 class="title topictitle1">Create the MID Server user</h1>        <div class="body taskbody">        <div class="section context"><span class="ph">The MID Server connects to an instance by using the SOAP web                service. To allow authentication with the instance, create a separate user account                for each MID Server or share the same account across multiple MID Servers. Grant                each MID Server user the mid_server role, which is required for the MID Server user                on any instance on which basic authentication is enabled. The mid_server role allows                the MID Server to access protected tables when strict SOAP security is in place. The                system adds the necessary SOAP roles automatically with this role.</span></div>        <ol class="ol steps"><li class="li step stepexpand">                <span class="ph cmd">Complete the fields in the form.</span>            </li><li class="li step stepexpand">                <span class="ph cmd">Click <span class="ph uicontrol">Submit</span></span>                <div class="itemgroup info">The system automatically adds the mid_server role to this user. </div>            </li></ol>    </div>    <div class="related-links"><div class="relinfo"><div class="reltitle">Related information<br /><div><a class="link" href="https://docs.servicenow.com/?context&#61;CSHelp:SetUpMIDRole&amp;version&#61;kingston" target="_blank">Set up the MID Server user and role</a></div></div></div></div>]]></content>
+        <last_sync>2018-05-30 10:57:05</last_sync>
+        <modifier>setup</modifier>
+        <name>$mid_server_user-setup</name>
+        <page>$mid_server_user</page>
+        <product>1</product>
+        <qualifier/>
+        <role/>
+        <role_order>1000</role_order>
+        <snc_created>true</snc_created>
+        <sys_class_name>sys_embedded_help_content</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2018-05-30 10:57:05</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>2c84f90f4f52130040d30fbf9310c7fd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>$mid_server_user-setup</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_embedded_help_content_2c84f90f4f52130040d30fbf9310c7fd</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2018-05-30 10:57:05</sys_updated_on>
+        <version>k</version>
+    </sys_embedded_help_content>
+    <sys_translated_text action="delete_multiple" query="documentkey=2c84f90f4f52130040d30fbf9310c7fd"/>
+</record_update>
